@@ -40,6 +40,6 @@ class Mapper:
         results = []
         for professor in Mapper.PROFESSORS:
             if professor.match(message):
-                results.append(professor)
-        return results
+                results.append(str(professor))
+        return "\n".join(results)
 
