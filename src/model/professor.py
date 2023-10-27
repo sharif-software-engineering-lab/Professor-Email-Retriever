@@ -8,7 +8,7 @@ class Professor:
         self.email = email
 
     def match(self, message):
-        return bool(re.match(self.pattern, message))
+        return bool(re.findall(self.pattern, message))
     
     def __str__(self) -> str:
         return f"{self.name}: {self.email}"
