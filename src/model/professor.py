@@ -9,3 +9,7 @@ class Professor:
 
     def match(self, message):
         return bool(re.findall(self.pattern, message))
+    
+    def __str__(self) -> str:
+        return f"{self.name}: {self.email}"
+      
