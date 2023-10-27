@@ -1,13 +1,15 @@
 # Professor-Email-Retriever
-Add this bot to your groups and it will send automated responses whenever it detects somebody is asking for a professor's email address. 
+Add this bot to your groups, and it will send automated responses whenever it detects somebody is asking for a professor's email address. 
 
-#پرسش‌ها 
+<div dir="rtl">
+
+# پرسش‌ها 
 -  این پوشه بعد از اجرای دستور `git init` یا `git clone` ایجاد میشود.
 - مفهوم آن این است که هر کامیت هدف مشخصی را دنبال میکند و آن را کامل انجام می‌دهد. به عنوان مثال اگر قرار است باگی در کامیت رفع شود،باید کاملا برطرف شود و تغییر غیر مرتبطی ایجاد نشود. در کانتکست Pull Request این مفهوم معنای وسیع‌تری پیدا کرده اما همچنان باید به هدف پایبند ماند و تغیرات بایستی کافی و جامع باشند اما از تعریف تجاوز نکنند.
 - 
     - fethch: شاخه‌ها را گرفته اما آن‌ها را merge نمی‌کند.
     - merge: دو شاخه را یکی می‌کند.
-    _ rebase: تغییراتی که روی یک شاخه اعمال شده را روی شاخه دیگری commit می‌کند.
+    - rebase: تغییراتی که روی یک شاخه اعمال شده را روی شاخه دیگری commit می‌کند.
     - pull: در عمل یک دستور fetch و سپس mergeرا اجرا میکند.
     - cherry pick: تغییراتی که با یک کامیت روی یک شاخه دیگر ایجاد شده را گرفته و آن را روی شاخه کنونی اعمال میکنم.
 
@@ -24,3 +26,5 @@ Add this bot to your groups and it will send automated responses whenever it det
 -  محل  stage میان تغییرات لوکال و کامیت قرار میگیرد و اجازه میدهد که تغییرات متفاوتی در یک کامیت قرار بگیرند. دستور stash نیز تغییراتی که تا اینجا بوجود آمده‌اند را ذخیره کرده و وضعیت مخزن را به آخرین کامیت برمیگرداند. این تغییرات را می‌توان بعدا بازیابی کرد.
 
 - بعد از هر کامیت، یک snapshot از مخزن در گیت نگهداری می‌شود و با استفاده از آن می‌توان پروژه را در آن نقطه مشاهده کرد و یا به آن برگشت.
+
+</div>
