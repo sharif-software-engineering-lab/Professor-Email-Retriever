@@ -6,7 +6,7 @@ import logging
 
 TOKEN_FILE = "token"
 f = open(TOKEN_FILE)
-token = f.read()
+token = f.read().strip()
 f.close()
 
 logging.basicConfig(
