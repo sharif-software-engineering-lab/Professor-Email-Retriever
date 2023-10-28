@@ -1,0 +1,157 @@
+[
+   {
+        "name": "Mohammad Ali Abam",
+        "pattern": "آبام|ابام|abam",
+        "email": "abam@sharif.edu"
+    },
+    {
+        "name": "Morteza Amini",
+        "pattern": "امینی|amini",
+        "email": "amini@sharif.edu"
+    },
+    {
+        "name": "Mohsen Ansari",
+        "pattern": "انصاری|ansari",
+        "email": "ansari@sharif.edu"
+    },
+    {
+        "name": "Hossein Asadi",
+        "pattern": "اسدی|asadi",
+        "email": "asadi@sharif.edu"
+    },
+    {
+        "name": "Hamid Beigy",
+        "pattern": "بیگی|beigi|beigy",
+        "email": "beigy.sharif.edu"
+    },
+    {
+        "name": "Alireza Ejlali",
+        "pattern": "اجلالی|ejlali",
+        "email": "ejlali@sharif.edu"
+    },
+    {
+        "name": "MohammadAmin Fazli",
+        "pattern": "فضلی|fazli",
+        "email": "fazli@sharif.edu"
+    },
+    {
+        "name": "Gholamreza Ghassem-Sani",
+        "pattern": "قاسم ثانی|قاسمثانی|ghasemsani|ghasem sani",
+        "email": "sani@sharif.edu"
+    },
+    {
+        "name": "Maziar Goudarzi",
+        "pattern": "گودرزی|goudarzi|godarzi",
+        "email": "goudarzi@sharif.edu"
+    },
+    {
+        "name": "Jafar Habibi",
+        "pattern": "حبیبی|habibi",
+        "email": "jhabibi@sharif.edu"
+    },
+    {
+        "name": "Shaahin Hessabi",
+        "pattern": "حسابی|hesabi",
+        "email": "hesabi@sharif.edu"
+    },
+    {
+        "name": "Abbas Heydarnoori",
+        "pattern": "حیدرنوری|حیدر نوری|heidarnoori|heydarnoori",
+        "email": "heydarnoori@sharif.edu"
+    },
+    {
+        "name": "Mohammad Izadi",
+        "pattern": "ایزدی|izadi",
+        "email": "izadi@sharif.edu"
+    },
+    {
+        "name": "Mahdi Jafari Siavoshani",
+        "pattern": "جعفری|jafari",
+        "email": "mjafari@sharif.edu"
+    },
+    {
+        "name": "Amir Hossein Jahangir",
+        "pattern": "حهانگیر|jahangir",
+        "email": "jahangir@sharif.edu"
+    },
+    {
+        "name": "Rasool Jalili",
+        "pattern": "جلیلی|jalili",
+        "email": "jalili@sharif.edu"
+    },
+    {
+        "name": "Shohreh Kasaei",
+        "pattern": "کسایی|کسائی|kasaei",
+        "email": "kasaei@sharif.edu"
+    },
+    {
+        "name": "Mehdi Kharrazi",
+        "pattern": "خرازی|kharrazi|kharazi",
+        "email": "kharrazi@sharif.edu"
+    },
+    {
+        "name": "Somayyeh Koohi",
+        "pattern": "کوهی|koohi",
+        "email": "koohi@sharif.edu"
+    },
+    {
+        "name": "Mohammad Taghi Manzuri",
+        "pattern": "منظوری|manzuri|manzouri",
+        "email": "manzuri@sharif.edu"
+    },
+    {
+        "name": "Seyed-Hassan Mirian-Hosseinabadi",
+        "pattern": "میریان|mirian",
+        "email": "mirian@sharif.edu"
+    },
+    {
+        "name": "Seyed Abolfazl Motahari",
+        "pattern": "مطهری|motahari|mottahari",
+        "email": "motahari@sharif.edu"
+    },
+    {
+        "name": "Ali Movaghar",
+        "pattern": "موقر|movaghar",
+        "email": "movaghar@sharif.edu"
+    },
+    {
+        "name": "Hamid Reza Rabiee",
+        "pattern": "ربیعی|rabiee",
+        "email": "rabiee@sharif.edu"
+    },
+    {
+        "name": "Raman Ramsin",
+        "pattern": "رامسین|ramsin",
+        "email": "ramsin@sharif.edu"
+    },
+    {
+        "name": "Mohammad Hossein Rohban",
+        "pattern": "رهبان|rohban",
+        "email": "rohban@sharif.edu"
+    },
+    {
+        "name": "Bardia Safaei",
+        "pattern": "صفایی|صفائی|safaei",
+        "email": "safaei@sharif.edu"
+    },
+    {
+        "name": "Hossein Sameti",
+        "pattern": "صامتی|sameti",
+        "email": "sameti@sharif.edu"
+    },
+    {
+        "name": "Hamid Sarbazi-Azad",
+        "pattern": "سربازی|sarbazi",
+        "email": "azad@sharif.edu"
+    },
+    {
+        "name": "Mahdieh Soleymani Baghshah",
+        "pattern": "سلیمانی|soleymani",
+        "email": "soleymani@sharif.edu"
+    },
+    {
+        "name": "Hamid Zarrabi-Zadeh",
+        "pattern": "ضرابی|zarrabi|zarabi",
+        "email": "zarrabi@sharif.edu"
+    }
+]
