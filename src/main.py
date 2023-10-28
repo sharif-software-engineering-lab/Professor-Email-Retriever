@@ -2,7 +2,10 @@ from core.mapper import Mapper
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 import logging
+import re
 
+
+EMAIL_REQUEST_PATTERN = r"ایمیل|email"
 TOKEN_FILE = "token"
 f = open(TOKEN_FILE)
 token = f.read().strip()
@@ -18,14 +21,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def handle_new_message(update, context):
-    message = update.message.text
-    chat_id = update.message.chat_id
-    user_id = update.message.from_user.id
-    # ... do something with the message, chat_id, user_id, etc.
-    print(f"Received message in chat {chat_id} from user {user_id}: {message}")
-    mess = Mapper.get(message)
-    if mess:
-        await update.message.reply_text(mess)
+    message = update.message.text.lower()
+    if re.findall(EMAIL_REQUEST_PATTERN, message):
+        mess = Mapper.get(message)
+        if mess:
+            await update.message.reply_text(mess)
 
 
 if __name__ == '__main__':
