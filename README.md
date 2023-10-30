@@ -1,13 +1,25 @@
 # Professor-Email-Retriever
 Add this bot to your groups, and it will send automated responses whenever it detects somebody is asking for a professor's email address. 
 
-<div dir="rtl">
+## How to Run
+See [src/README.md](src/README.md).
 
+<div dir="rtl">
+    
+## جزئیات پیاده‌سازی
+- ابتدا یک organization در GitHub برای تجمیع آزمایش ساخته شد. سپس در این organization یک ریپو مربوط به آزمایش اول ساخته شد. در این ریپو یک بات تلگرام با هدف ارائه ایمیل مربوط به استادهای دانشکده با استفاده از ابزار گیت توسعه پیدا کرد.
+- فایل `.gitignore` نیز در این پروژه مورد استفاده قرار گرفته است. این فایل در root ریپوزیتوری قرار دارد. همچنین برای تولید این فایل از سایت [gitignore.io](https://www.toptal.com/developers/gitignore/) استفاده شده است.
+- شاخه‌های feature و hotfix به منظور توسعه و رفع باگ مورد استفاده قرار گرفتند. همچنین برنچ main به عنوان برنچ اصلی پروژه استفاده شد. شاخه‌ها در [اینجا](https://github.com/sharif-software-engineering-lab/Professor-Email-Retriever/branches) قابل مشاهده هستند.
+- در این پروژه بیش از ۲۰ کامیت بر روی شاخه main وجود دارد که از [اینجا](https://github.com/sharif-software-engineering-lab/Professor-Email-Retriever/commits/main) قابل مشاهده هستند. پیام هر کامیت متناسب با تغییرات آن است.
+- در روند توسعه پروژه چندین کانفلیکت بوجود آمدند که در تاریخچه کامیت‌ها قابل مشاهده هستند.
+- برای جلوگیری از انتقال مشکلات و باگ‌ها به شاخه main، از قوانینی از جمله امکان ادغام تنها با PR بر روی شاخه main گزاشته شده‌اند.
+- از PR برای ادغام فیچرهای جدید و فیکس باگ‌ها استفاده شده است. این PRها از [اینجا](https://github.com/sharif-software-engineering-lab/Professor-Email-Retriever/pulls?q=is%3Apr+is%3Aclosed) قابل مشاهده هستند. 
+    
 ## پرسش‌ها 
 -  این پوشه بعد از اجرای دستور `git init` یا `git clone` ایجاد میشود.
 - مفهوم آن این است که هر کامیت هدف مشخصی را دنبال میکند و آن را کامل انجام می‌دهد. به عنوان مثال اگر قرار است باگی در کامیت رفع شود،باید کاملا برطرف شود و تغییر غیر مرتبطی ایجاد نشود. در کانتکست Pull Request این مفهوم معنای وسیع‌تری پیدا کرده اما همچنان باید به هدف پایبند ماند و تغیرات بایستی کافی و جامع باشند اما از تعریف تجاوز نکنند.
 - 
-    - fethch: شاخه‌ها را گرفته اما آن‌ها را merge نمی‌کند.
+    - دستور fethch: شاخه‌ها را گرفته اما آن‌ها را merge نمی‌کند.
     - merge: دو شاخه را یکی می‌کند.
     - rebase: تغییراتی که روی یک شاخه اعمال شده را روی شاخه دیگری commit می‌کند.
     - pull: در عمل یک دستور fetch و سپس mergeرا اجرا میکند.
@@ -17,7 +29,7 @@ Add this bot to your groups, and it will send automated responses whenever it de
 <br>
 
 - 
-    - reset: جایی که پوینتر HEADبه آن اشاره میکند را عوض کرده و به یک کامیت مشخص مبرد.
+    - دستور reset: جایی که پوینتر HEADبه آن اشاره میکند را عوض کرده و به یک کامیت مشخص مبرد.
     - revert: با اضافه کردن کامیت جدید، کامیت(های) قبلی را خنثی می‌کند. 
     - restore: ابزاری که اخیرا به گیت اضافه شده و به کمک آن میتوان تغییراتی که روی فایل خاصی اعمال شده را بدون مختل کردن ساختار مخزن خنثی کرد.
 
