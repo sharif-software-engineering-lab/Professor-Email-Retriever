@@ -14,7 +14,7 @@ logging.basicConfig(
 )
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="Hello there fellow student.\nAdd me to your groups and I shall provide the email of any professor from the CE department when a message containing their name and the word 'email' is sent.\nI am the work of Parsa and Kasra.")
 
 
 async def handle_new_message(update, context):
